@@ -266,7 +266,8 @@ const ViewAll = () => {
 
                                                 <h5 className="card-title">{value.id}</h5>
                                                 <p className="card-text">{value.title}</p>
-                                                <p className="card-text">{value.description}</p>
+                                                <p className="card-text">{value.rating.rate}</p>
+                                                <p className="card-text">{value.rating.count}</p>
                                                 <p className="card-text">{value.category}</p>
                                               
                                             </div>
